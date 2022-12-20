@@ -48,9 +48,6 @@ class radioactiveSourcePackageReception(models.Model):
     reasonsAcceptanceReception = models.TextField()
     nameMedPhys = models.CharField(max_length=50)
 
-    def __str__(self):
-        return self.remarks
-
 
 
 
